@@ -1,89 +1,67 @@
 <html>
 	<head>
+			<title>Link</title>
+			<style>
+				table {
+					width:100%;
+				}
 
-		<title>il tennis</title>
-		<style>
-			h1 {
-			    text-align:center;
-				color:yellow;
-				background-color:green;
-				font-size:50px;
-			}
+                img {
+                    width: 300px;
+                    height: auto;
+                }
+
+                td {
+                    text-align: center;
+                }
+
+                table, th, td{
+                    border: 1px solid black;
+                }
+			</style>
 			
-			img {
-				width:50%;
-				height:auto;
-				img-align:center;
-			}
-			
-			table, th, td {
-				border: 1px solid black;
-			}
-		</style>
-		<!--
-			solid
-			dotted
-			dashed
-			double
-		-->
-	</head>
-	<body>
-		<header>
-			<h1>il tennis</h1>
+		</head>
+		<body>
+			<header>
+			<h1>Link</h1>
 		</header>
 		<main>
 			<table>
 				<thead>
 					<tr>
-						<th>
-							nome
-						</th>
-						<th>
-							cognome
-						</th>
-						<td>
-			                età
-						</th>
+						<th>Semplice</th>
+						<th>Nuova Scheda</th>
 					</tr>
-					</thead>
-					<tbody>
+				</thead>
+				<tbody>
 					<tr>
 						<td>
-					
+							<a href="https://andreaiannielli.github.io">Clicca Qui</a>
+                        </td>
+                        <td>
+                            <a href="https://andreaiannielli.github.io" target="_blank">Clicca Qui</a>
+                        </td>
+                        <td>
+                            <a href="https://andreaiannielli.github.io" target="_blank">
+                                <img src="avigliano.jpg" alt="Foto di Avigliano" title="Il mio paese">
+                            </a>
+                        </td>
 					</tr>
-				</head>
-				</body>
-					<tr>
-						<td>
-						Andrea
-					</td>
-					<td>
-						Iannielli
-					</td>
-					<td>
-						16
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		
-		<table>
-			<tbody>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</tbody>
-		</table>
-			
-			<img src="tennis.jpeg" alt="descrizione del tennis" title="il tennis"/>
-			</main>
-			<footer>
-				<p>&copy; Andrea Iannielli</p>
-			</footer>
-		</body>
-	</html>
-	
-	    
-		
+                    <tr>
+                        <td colspan="3">
+                            <iframe src="https://andreaiannielli.github.io" name="my_iframe" width="100%" height="100%" title="Il mio sito"></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/t2Jap6GDGnA" title="Lipsia-Juventus 2-3: gol e highlights | Champions League" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </td>
+                    </tr>    
+				</tbody>
+			</table>	
+		</main>
+		</footer>
+			<p>&copy; Andrea Iannielli</p>
+		</footer>
+	</body>
+</html>
