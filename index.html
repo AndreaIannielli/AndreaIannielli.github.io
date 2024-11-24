@@ -1,0 +1,132 @@
+<html>
+<html lang="it">
+<head>
+    <title>La Mia Vita</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="icon" type="image/x-icon" href="ai.png">
+    <link rel="stylesheet" href="styles.css">
+	<style>
+			h1 {
+			    text-align:center;
+				color:white;
+				background-color:black;
+				font-size:50px;
+			}
+			
+			img {
+				width:20%;
+				height:auto;
+				img-align:center;
+			}
+	</style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Benvenuto sul sito della mia vita!</h1>
+			
+			<button onclick="apriPagina()">Vai ad Educazione Civica</button> 
+			
+			<script> 
+			function apriPagina() { 
+				window.location.href = 'EducazioneCivica.html';
+			} 
+			</script>
+			
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><button onclick="document.getElementById('chi sono').scrollIntoView()">Chi Sono</button></li>
+            <li><button onclick="document.getElementById('hobbies').scrollIntoView()">Hobby</button></li>
+            <li><button onclick="document.getElementById('Obiettivi').scrollIntoView()">Obiettivi</button></li>
+            <li><button onclick="document.getElementById('Istruzione').scrollIntoView()">Istruzione</button></li>
+            <li><button onclick="document.getElementById('lavoro').scrollIntoView()">Asd Tennis Avigliano</button></li>
+            <li><button onclick="document.getElementById('viaggi').scrollIntoView()">Viaggi</button></li>
+            <li><button onclick="document.getElementById('foto').scrollIntoView()">Galleria</button></li>
+			
+        </ul>
+    </nav>
+    <main>
+        <section id="chi sono">
+            <h2>Chi Sono</h2>
+            <p>Ciao! Mi chiamo Andrea Iannielli e sono nato a Potenza il 20/11/07. Mi appassiona molto il tennis, ma anche il calcio. Nella mia vita ho avuto molte esperienze che mi hanno migliorato come persona.</p>
+            <img src="omino.jpg" alt="Immagine di Me">
+        </section>
+        <section id="hobbies">
+            <h2>I Miei Hobby</h2>
+            <ul>
+                <li>Tennis</li>
+                <li>Calcio</li>
+                <li>Palestra</li>
+            </ul>
+            <p>Dedico il mio tempo libero a questi hobby perché mi permettono di rilassarmi e non pensare ad altro, e di migliorare la mia salute fisica mantenendomi in forma.</p>
+            <img src="tenniss.png" alt="Immagine Tennis">
+			<img src="calcio.png" alt="Immagine Calcio">
+			<img src="palestra.png" alt="Immagine Palestra">
+        </section>
+        <section id="Obiettivi">
+            <h2>I Miei Obiettivi</h2>
+            <p>Nel futuro, spero di diventare un tennista professionista. Questo obiettivo è importante per me perché rappresenta un sogno che ho da molti anni.</p>
+            <p>Mi impegno ogni giorno per avvicinarmi sempre di più a questo obiettivo, affrontando le sfide e imparando nuove competenze lungo il percorso.</p>
+            <img src="ioTennis.jpg" alt="Immagine Obiettivo">
+        </section>
+        <section id="Istruzione">
+            <h2>Istruzione</h2>
+            <p>Sto studiando all'Itis di Potenza per diventare un perito informatico.</p> 
+			<p>Durante il mio percorso scolastico ho sviluppato molte competenze, e queste sono le materie che studiamo:</p>
+            <ul>
+                <li>Educazione Civica</li>
+                <li>Informatica</li>
+                <li>Italiano</li>
+				<li>Inglese</li>
+				<li>Matematica</li>
+				<li>Religione</li>
+				<li>Educazione Fisica</li>
+				<li>Sistemi e Reti</li>
+				<li>Storia</li>
+				<li>Tpsit</li>
+				<li>Telecomunicazioni</li>
+            </ul>
+            <img src="itis.jpg" alt="Immagine Scuola">
+        </section>
+        <section id="lavoro">
+            <h2>Asd Tennis Avigliano</h2>
+            <p>Attualmente gioco nell'Asd tennis Avigliano da 10 anni, da poco giochiamo in modo agonistico e quest'anno siamo diventati campioni regionali.</p>
+            <ul>
+                <li>Storia</li>
+                <li>Titoli</li>
+            </ul>
+			<p>Un paio di racchette di legno ed un muraglione di cemento... così ha inizio la storia del tennis ad Avigliano.</p>
+			<p>Alla fine degli anni settanta anche in un piccolo paese di provincia si sentono gli echi delle imprese di Panatta e compagni, quando il tennis era ancora un caso mediatico.</p>
+			<p>Il TC Avigliano è riuscito ad ottenere ben 38 titoli regionali, collocandosi al 33° posto a livello nazionale per le categorie giovanili, e al 67° per il livello assoluto.</p>
+            <img src="tennis.jpg" alt="Immagine Tennis Avigliano">
+        </section>
+        <section id="viaggi">
+            <h2>Viaggi</h2>
+            <p>Ho avuto la fortuna di viaggiare in diverse città, e queste sono quelle che mi hanno colpito di più.</p>
+            <ul>
+                <li>Roma</li>
+                <li>Milano</li>
+                <li>Napoli</li>
+            </ul>
+            <img src="roma.jpg" alt="Roma">
+			<img src="milano.jpg" alt="Milano">
+			<img src="napoli.jpg" alt="Napoli">
+        </section>
+        <section id="foto">
+            <h2>Galleria</h2>
+            <p>Alcune foto che documentano uno dei miei momenti più importanti della mia vita ovvero il torneo di tennis Master 1000 a roma che si svolge ogni anno:</p>
+            <div class="foto">
+                <img src="romaAtp1.jpg" alt="logo">
+                <img src="romaAtp.jpg" alt="campo">
+                <img src="romaAtp2.jpeg" alt="sinner">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Andrea Iannielli</p>
+    </footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
